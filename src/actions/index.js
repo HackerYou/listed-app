@@ -6,7 +6,7 @@ export const UPDATE_SCORE = 'update_score';
 export const ADD_LIST = 'add_list';
 
 // saves the root url as a variable
-const rootUrl = `http://lists.hackeryou.com`
+const rootUrl = `https://lists.hackeryou.com`
 
 export function fetchLists() {
   // sets up an axios request that returns a promise
